@@ -7,7 +7,7 @@ import { number } from 'prop-types';
 let initState: Store = {
 	num: 0
 }
-react_typescript_demo
+
 export default function (state: Store = initState, action: Action): Store {
 	switch (action.type) {
 		case types.ADD:
